@@ -189,7 +189,7 @@ Resources:
               echo '{"credsStore": "ecr-login"}' > config.json
             - ECR_REGISTRY: !Sub ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com
               APP_REPO_NAME: clarusway-repo/phonebook-app
-              GITHUB_REPO: https://github.com/callahan-cw/project-203.git
+              GITHUB_REPO: https://github.com/talha-01/project-203.git
 
   DockerManager2:
     Type: "AWS::EC2::Instance"
